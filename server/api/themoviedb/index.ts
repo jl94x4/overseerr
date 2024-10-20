@@ -625,7 +625,7 @@ class TheMovieDb extends ExternalAPI {
 
   public getAllTrending = async ({
     page = 1,
-    timeWindow = 'day',
+    timeWindow = 'week',
     language = 'en',
   }: {
     page?: number;
